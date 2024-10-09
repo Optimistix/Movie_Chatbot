@@ -2,7 +2,7 @@
 A RAG based LLM application developed as part of LLM ZoomCamp
 
 <p align="center">
- <img src="images/movie_chatbot_logo copy.png">
+ <img src="images/movie_chatbot_project_logo.png">
 </p>
 
 
