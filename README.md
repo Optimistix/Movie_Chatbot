@@ -1,5 +1,5 @@
 # Movie_Chatbot
-A RAG based LLM application developed as part of LLM ZoomCamp
+A RAG based LLM application developed as part of LLM ZoomCamp.
 
 <p align="center">
  <img src="images/movie_chatbot_project_logo.png">
@@ -11,7 +11,7 @@ The goal of this project is to create an AI-driven movie chatbot that can answer
 
 ## Project overview
 
-The Movie Chatbot is a RAG application designed to assist users in exploring movie selection.
+The Movie Chatbot is a RAG application designed to assist users in exploring movie selection, discussing movies, finding out various details like movie titles, genre, plot, directors, actors, year of release, and so on.
 
 This project was implemented for [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) - a free course about LLMs and RAG.
 
@@ -36,7 +36,6 @@ The dataset is cleaned and ready to be used in various applications such as:
 - Chatbot development
 - Machine learning projects focused on movies and entertainment
 
-and
 
 # 2. Wikipedia Movie Plots Dataset
 
@@ -61,13 +60,15 @@ You can explore and download the dataset here: [Wikipedia Movie Plots Dataset](h
 References:
 - [Wikipedia Movie Plots Dataset](https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots/data)
 
-
-
 The datasetis have been downloaded from Kaggle:
+
 https://www.kaggle.com/datasets/yashgupta24/48000-movies-dataset
+
 https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots/data
 
 and are available in the data folder (data/).
+
+The two datasets were merged to obtain about 8500 movies. After filtering out entries with null values in any field, there were ~5000 movies left. To save time and resources, a subset of 1000 movies was used for the project.
 
 ## Technologies
 
