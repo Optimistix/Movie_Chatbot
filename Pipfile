@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+groq = "*"
+scikit-learn = "*"
+pandas = "*"
+flask = "*"
+psycopg2-binary = "*"
+python-dotenv = "*"
+gunicorn = "*"
+tzdata = "*"
+requests = "*"
+pgcli = "*"
+questionary = "*"
+
+[dev-packages]
+tqdm = "*"
+notebook = "==7.1.2"
+ipywidgets = "*"
+export = "*"
+requests = "*"
+pgcli = "*"
+questionary = "*"
+
+[requires]
+python_version = "3.11"
